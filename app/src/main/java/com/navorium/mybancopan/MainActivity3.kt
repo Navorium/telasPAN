@@ -18,3 +18,12 @@ class MainActivity3 : AppCompatActivity() {
         }
     }
 }
+
+fun main(){
+    val buttonBackToMain = findViewById<Button>(R.id.buttonBackToMain)
+    buttonBackToMain.setOnClickListener {
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+    }
+
+}
