@@ -7,20 +7,91 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="167dp"
+        android:layout_height="61dp"
+        android:gravity="fill"
+        android:text="Empréstimos"
+        app:cornerRadius="11dp"
+        app:icon="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Button"
+        app:cornerRadius="11dp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Navorium"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="41dp" />
 
     <Button
         android:id="@+id/buttonToActivity2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ir a la Pantalla 2" />
+        android:text="Ir a la Pantalla 2"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="651dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="75dp"
+        android:layout_height="69dp"
+
+
+        app:srcCompat="@drawable/miImagen"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo atual"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 1.400,00"
+        android:textColor="#2AB2FA"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:cornerRadius="11dp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="139dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        app:cornerRadius="11dp"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="285dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
